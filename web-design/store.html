@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GF - Store</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./dist/css/main.css" />
+        <link rel="shortcut icon" href="assets/images/logo.svg">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+        <!-- *!Nesse link do bootstrap de cima esta fazendo o css normal bugar... -->
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <div class="sidenav-menu">
+                <a href="index.html" class="sidenav-brand">
+                    <img src="assets/images/logo.svg" alt="site logo" class="sidenav-brand-icon">
+                    <span class="sidenav-brand-name">GAMES FIGHT</span>
+                </a>
+
+                <nav class="menu-list">
+                    <a href="index.html" class="menu-item">
+                        <span class="menu-item-icon">
+                            <img src="assets/images/home_icon.svg" alt="">
+                        </span>
+                        <span class="menu-item-text text-sm">Home</span>
+                    </a>
+                    <a href="store.html" class="menu-item">
+                        <span class="menu-item-icon">
+                            <img src="assets/images/fire_icon.svg" alt="">
+                        </span>
+                        <span class="menu-item-text text-sm">Store</span>
+                    </a>
+                    
+                    <a href="friends.html" class="menu-item">
+                        <span class="menu-item-icon">
+                            <img src="assets/images/persons_icon.svg" alt="">
+                        </span>
+                        <span class="menu-item-text text-sm">Friends</span>
+                    </a>
+                    <a href="https://www.twitch.tv/" class="menu-item">
+                        <span class="menu-item-icon">
+                            <img src="assets/images/live_icon.svg" alt="">
+                        </span>
+                        <span class="menu-item-text text-sm">Live</span>
+                    </a>
+                </nav>
+
+                <div class="menu-list-2">
+                    
+                    <a href="#" class="user-item">
+                        <span class="user-item-img">
+                            <img src="assets/images/misaki-yata.jpg" alt="">
+                        </span>
+                        <span class="user-item-name text-sm">Player 1</span>
+                    </a>
+                </div>
+            </div>
+
+            <main class="main-content">
+                <section class="main-topbar">
+                    <div class="topbar-left">
+                        <button class="sidenav-toggle-btn">
+                            <img src="assets/images/menu_icon.svg" />
+                        </button>
+                        <div class="topbar-tab-btns">
+                            <button type="button" class="topbar-tab-btn text-magnolia-light text-sm"><a href="#fps">FPS</a></button>
+                            <button type="button" class="topbar-tab-btn text-magnolia-light text-sm"><a href="#rpg">RPG</a></button>
+                            <button type="button" class="topbar-tab-btn text-magnolia-light text-sm"><a href="#survival">Survival</a></button>
+                            
+                        </div>
+                    </div>
+
+                    <div class="topbar-right">
+                        <button class="notification-btn" type="button">
+                            <img src="assets/images/bell_icon.svg" alt="" />
+                        </button>
+
+                        <div class="search-group">
+                            <span class="search-icon">
+                                <img src="assets/images/search_icon.svg" alt="">
+                            </span>
+                            <input type="text" class="search-input" placeholder="Search" />
+                        </div>
+                    </div>
+                </section>
+
+                <section id="fps" class="main-cards">
+                    <h5 class="main-cards-title text-lg">First Person Shooters (FPS)</h5>
+
+                    <div class="card-items">
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/warface.jpg" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">Warface</p>
+                                <p class="card-item-genre">Epic Games</p>
+                                <div class="card-item-price">
+                                    <span class="discount-percent bg-pistachio text-dark-green">FREE</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/csgo.jpg" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">Conter-Strike: Global Offensie</p>
+                                <p class="card-item-genre">Steam</p>
+                                <div class="card-item-price">
+                                    <span class="discount-percent bg-pistachio text-dark-green">-80%</span>
+                                    <span class="old-price text-magnolia-light">$50</span>
+                                    <span class="new-price">$8.15</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/valorant.png" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">Valorant</p>
+                                <p class="card-item-genre">Riot Games</p>
+                                <div class="card-item-price">
+                                    <span class="discount-percent bg-pistachio text-dark-green">FREE</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/fortnite.jpg" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">Fortnite</p>
+                                <p class="card-item-genre">Epic Games</p>
+                                <div class="card-item-price">
+                                    <span class="discount-percent bg-pistachio text-dark-green">-30%</span>
+                                    <span class="old-price text-magnolia-light">$9.45</span>
+                                    <span class="new-price">$4.67</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/callofduty.jpg" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">Call Of Duty</p>
+                                <p class="card-item-genre">Activision Blizzard</p>
+                                <div class="card-item-price">
+                                    <span class="new-price">$24.99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="rpg" class="main-cards">
+                    <h5 class="main-cards-title text-lg">Role Playing Game (RPG)</h5>
+
+                    <div class="card-items">
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/skyrim.jpg" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">The Elder Scrolls V: Skyrim</p>
+                                <p class="card-item-genre">Bethesda Game Studios</p>
+                                <div class="card-item-price">
+                                    <span class="discount-percent bg-pistachio text-dark-green">-80%</span>
+                                    <span class="old-price text-magnolia-light">$50</span>
+                                    <span class="new-price">$8.15</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/wow.jpg" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">World of Warcraft</p>
+                                <p class="card-item-genre">Blizzard Entertainment</p>
+                                <div class="card-item-price">
+                                    
+                                    <span class="new-price">$15.99</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/diablo.jpg" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">Diablo III</p>
+                                <p class="card-item-genre">Blizzard Entertainment</p>
+                                <div class="card-item-price">
+                                    <span class="new-price">$20.38</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/witcher.jpg" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">The Witcher 3: Wild Hunt</p>
+                                <p class="card-item-genre">CD Projekt RED</p>
+                                <div class="card-item-price">
+                                    <span class="discount-percent bg-pistachio text-dark-green">-30%</span>
+                                    <span class="old-price text-magnolia-light">$9.45</span>
+                                    <span class="new-price">$4.67</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/dark.jpg" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">Dark Souls III</p>
+                                <p class="card-item-genre">FromSoftware</p>
+                                <div class="card-item-price">
+                                    <span class="new-price">$24.99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="survival" class="main-cards">
+                    <h5 class="main-cards-title text-lg">Survival</h5>
+
+                    <div class="card-items">
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/minecraft.png" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">Minecraft</p>
+                                <p class="card-item-genre">Mojang Studios</p>
+                                <div class="card-item-price">
+                                    <span class="new-price">$8.15</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/ark.jpg" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">ARK: Survival Evolved</p>
+                                <p class="card-item-genre">Studio Wildcard</p>
+                                <div class="card-item-price">
+                                    <span class="discount-percent bg-pistachio text-dark-green">-80%</span>
+                                    <span class="old-price text-magnolia-light">$50</span>
+                                    <span class="new-price">$8.15</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/card_img_3.png" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">Unravel Two</p>
+                                <p class="card-item-genre">Coldwood Interactive</p>
+                                <div class="card-item-price">
+                                    <span class="new-price">$20.38</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/rust.jpg" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">Rust</p>
+                                <p class="card-item-genre">Facepunch Studios</p>
+                                <div class="card-item-price">
+                                    <span class="discount-percent bg-pistachio text-dark-green">-30%</span>
+                                    <span class="old-price text-magnolia-light">$9.45</span>
+                                    <span class="new-price">$4.67</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item">
+                            <div class="card-item-img">
+                                <img src="assets/images/green.jpg" alt="">
+                            </div>
+                            <div class="card-item-body">
+                                <p class="card-item-title text-md">Green Hell</p>
+                                <p class="card-item-genre">Creepy Jar</p>
+                                <div class="card-item-price">
+                                    <span class="new-price">$24.99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+            </main>
+        </div>
+   
+
+
+
+
+
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./app/js/script.js"></script>
+    </body>
+</html>

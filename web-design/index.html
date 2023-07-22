@@ -3,47 +3,43 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>IFRN - GAMES</title>
+        <title>Games Fight</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./dist/css/main.css" />
+        <link rel="shortcut icon" href="assets/images/logo.svg">
         <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
         <!-- *!Nesse link do bootstrap de cima esta fazendo o css normal bugar... -->
     </head>
     <body>
         <div class="page-wrapper">
             <div class="sidenav-menu">
-                <a href="#" class="sidenav-brand">
+                <a href="index.html" class="sidenav-brand">
                     <img src="assets/images/logo.svg" alt="site logo" class="sidenav-brand-icon">
-                    <span class="sidenav-brand-name">IFRN GAMES </span>
+                    <span class="sidenav-brand-name">GAMES FIGHT</span>
                 </a>
 
                 <nav class="menu-list">
-                    <a href="#" class="menu-item">
+                    <a href="index.html" class="menu-item">
                         <span class="menu-item-icon">
                             <img src="assets/images/home_icon.svg" alt="">
                         </span>
                         <span class="menu-item-text text-sm">Home</span>
                     </a>
-                    <a href="#" class="menu-item menu-item-active">
+                    <a href="store.html" class="menu-item">
                         <span class="menu-item-icon">
                             <img src="assets/images/fire_icon.svg" alt="">
                         </span>
                         <span class="menu-item-text text-sm">Store</span>
                     </a>
-                    <a href="#" class="menu-item">
-                        <span class="menu-item-icon">
-                            <img src="assets/images/grid_icon.svg" alt="">
-                        </span>
-                        <span class="menu-item-text text-sm">Library</span>
-                    </a>
-                    <a href="#" class="menu-item">
+                    
+                    <a href="friends.html" class="menu-item">
                         <span class="menu-item-icon">
                             <img src="assets/images/persons_icon.svg" alt="">
                         </span>
                         <span class="menu-item-text text-sm">Friends</span>
                     </a>
-                    <a href="#" class="menu-item">
+                    <a href="https://www.twitch.tv/" class="menu-item">
                         <span class="menu-item-icon">
                             <img src="assets/images/live_icon.svg" alt="">
                         </span>
@@ -52,21 +48,10 @@
                 </nav>
 
                 <div class="menu-list-2">
-                    <a href="#" class="menu-item">
-                        <span class="menu-item-icon">
-                            <img src="assets/images/download_icon.svg" alt="">
-                        </span>
-                        <span class="menu-item-text text-sm">Downloads</span>
-                    </a>
-                    <a href="#" class="menu-item">
-                        <span class="menu-item-icon">
-                            <img src="assets/images/gears_icon.svg" alt="">
-                        </span>
-                        <span class="menu-item-text text-sm">Settings</span>
-                    </a>
+                    
                     <a href="#" class="user-item">
                         <span class="user-item-img">
-                            <img src="assets/images/user.jpg" alt="">
+                            <img src="assets/images/misaki-yata.jpg" alt="">
                         </span>
                         <span class="user-item-name text-sm">Player 1</span>
                     </a>
@@ -80,9 +65,8 @@
                             <img src="assets/images/menu_icon.svg" />
                         </button>
                         <div class="topbar-tab-btns">
-                            <button type="button" class="topbar-tab-btn topbar-tab-btn-active text-magnolia-light text-sm">Discover</button>
-                            <button type="button" class="topbar-tab-btn text-magnolia-light text-sm">Browse</button>
-                            <button type="button" class="topbar-tab-btn text-magnolia-light text-sm">Wishlist</button>
+                            <button type="button" class="topbar-tab-btn topbar-tab-btn-active text-magnolia-light text-sm"><a href="#home"></a>Home</button>
+                            <button type="button" class="topbar-tab-btn text-magnolia-light text-sm"><a href="#game">Games</a></button>
                         </div>
                     </div>
 
@@ -114,7 +98,7 @@
                         </div>
                     </div>
 
-                    <div class="showcase-small bg-primary-light">
+                    <div id="home" class="showcase-small bg-primary-light">
                         <div class="showcase-items">
                             <div class="showcase-item">
                                 <div class="showcase-item-img">
@@ -161,7 +145,7 @@
                     </div>
                 </section>
 
-                <section class="main-cards">
+                <section id="game" class="main-cards">
                     <h5 class="main-cards-title text-lg">Games on Sale</h5>
 
                     <div class="card-items">
