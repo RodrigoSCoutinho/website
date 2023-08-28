@@ -19,7 +19,7 @@ Is a project basically a website games, where the player can buy new games, play
 
 ```bash
   # Clone the project
-  $ git clone https://github.com/RodrigoSCoutinho/website.git
+  $ git clone https://github.com/thfields/website.git
 ```
 ```bash
   # Enter directory
